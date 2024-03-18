@@ -1,37 +1,27 @@
-
-
 <!DOCTYPE html>
 
 <html lang="en">
-
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>2D GAME</title>
 
     <link rel="stylesheet" href="style.css" />
-
   </head>
-      <div class="score" id="score">0</div>
+  <div class="score" id="score">0</div>
 
   <body class="body" onload="idleStart()" onkeypress="keyCheck(event)">
-
     <div id="background" class="background">
-
       <img src="Run (1).png" class="player" id="player" />
-          <div class="endScreen" id="endScreen">
-          <div>Game Over</div>
-          <div>Your Score</div>
-          <div class="endScore" id="endScore">0</div>
+      <div class="endScreen" id="endScreen">
+        <div>Game Over</div>
+        <div>Your Score</div>
+        <div class="endScore" id="endScore">0</div>
 
-             <button class="btn" onClick="reload();">Try Again</button>
-
+        <button class="btn" onClick="reload();">Try Again</button>
       </div>
-
     </div>
 
     <script src="script.js"></script>
-
   </body>
-
 </html>
