@@ -1,0 +1,2 @@
+command = "npm run build"  # Adjust this command based on your build process
+publish = "dist"  # Adjust this folder based on your project structure
